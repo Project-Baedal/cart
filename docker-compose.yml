@@ -1,0 +1,18 @@
+services:
+
+  mongodb:
+    image: mongo:7.0.12
+    container_name: mongodb-cart
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb-data:/var/lib/mongodb/data
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
+
+
+volumes:
+  mongodb-data:
+
