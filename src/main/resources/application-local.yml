@@ -17,6 +17,12 @@ spring:
         show_sql: true
         format_sql: true
 
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:10000
+    producer:
+      bootstrap-servers: localhost:10000
+
 logging:
   level:
     com.baedal: DEBUG
