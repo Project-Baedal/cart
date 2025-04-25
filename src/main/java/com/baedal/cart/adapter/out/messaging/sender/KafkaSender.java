@@ -1,4 +1,4 @@
-package com.baedal.cart.adapter.out.sender;
+package com.baedal.cart.adapter.out.messaging.sender;
 
 import com.baedal.cart.util.ObjectMapperUtil;
 import lombok.RequiredArgsConstructor;
