@@ -7,7 +7,7 @@ import java.util.Set;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CartValidate {
+public class CartValidator {
 
   public void validateOrderInfo(ValidateOrderInfoCommand.Request req, GetCart cart) {
 
