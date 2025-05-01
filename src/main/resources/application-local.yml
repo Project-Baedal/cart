@@ -1,0 +1,23 @@
+server:
+  port: 8083
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: cart
+      authentication-database: admin
+      username: root
+      password: root
+
+
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:10000
+    producer:
+      bootstrap-servers: localhost:10000
+
+logging:
+  level:
+    com.baedal: DEBUG
